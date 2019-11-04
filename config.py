@@ -4,8 +4,8 @@
 KindleEar配置文件，请务必修改开始两个配置（如果使用uploader，则uploader自动帮你修改）
 """
 
-SRC_EMAIL = "tlgt2078@163.com"  #Your gmail account for sending mail to Kindle
-DOMAIN = "http://kindleear.appspot.com/" #Your domain of app
+SRC_EMAIL = "minxia.tang@gmail.com"  #Your gmail account for sending mail to Kindle
+DOMAIN = "http://kindle20191101.appspot.com/" #Your domain of app
 
 TIMEZONE = 8  #Default timezone, you can modify it in webpage after deployed
 
@@ -24,7 +24,7 @@ PINYIN_FILENAME = False
 
 #If set to True, encoding detected by chardet module will be used for each article
 #otherwise encoding in http response header or meta of html is used in proprity.
-ALWAYS_CHAR_DETECT = False
+ALWAYS_CHAR_DETECT = True
 
 #True indicates that any encoding in http header or in html header will be used.
 #False indicates that encoding will be used if the encoding in http header and the one in html header are the same.
